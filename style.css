@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+section{
+    background-image:linear-gradient(to bottom, #686868, transparent),url('netcel-hero.jpg');
+    /* background: linear-gradient(to bottom,#333538 transparent); */
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(netcel-hero.jpg); */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+    color: #FFFFFF;
+    height: 600px;
+
+    /* justify-content: space-between; */
+}
+h1{
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+
+    
+}
+h3{
+    font-size: 30px;
+    font-weight: lighter;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+li{
+    margin-left: 30px;
+}
+#logo{
+    height: 50px;
+    width: 100px;
+}
+#threediv{
+    display: flex;
+    justify-content: flex-end;
+
+    justify-content: space-around;
+    
+    margin-top: 150px;
+}
+#threediv div{
+    width: 33%;
+    height: 300px;
+    padding: 50px;
+    
+}
+#threediv div h3{
+    font-size: 40px;
+    width: 70%;
+}
+#threediv div p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+#blue{
+    background-color: #385D77;
+}
+#red{
+    background-color: #ED1556
+}
+#green{
+    background-color: #00947E;
+}
+#Para1{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 10px;
+    width: 60%;
+
+}
